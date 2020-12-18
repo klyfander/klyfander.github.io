@@ -3,6 +3,7 @@ var translated;
 var newWindow;
 var uriContent;
 var work;
+var woap;
 
 var _0x2b24 = ["location", "yes"];
 (function(_0x2e070c, _0x24f708) {
