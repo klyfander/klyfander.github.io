@@ -34,7 +34,7 @@ if (work == _0x44bfff(0x65)) {
   }
   function run() {
     transform();
-    alert("Your code is being transcompiled to javascript...");
+    alert("Your code is being translated to javascript...");
     fnewwindow();
     newWindow.document.write(translated);
     newWindow.document.close();
