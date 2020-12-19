@@ -184,11 +184,10 @@ if (work == _0x44bfff(0x65)) {
 
     //preferred codes:
 
-    translated = translated.replace("/gebtn.", "document.getElementsByTagName");
-    translated = translated.replace("/gebcn.","document.getElementsByClassName");
-    translated = translated.replace("/gebi.", "document.getElementById");
-    translated = translated.replace("/gebn.", "document.getElementsByName");
-    translated = translated.replace("/write.", "document.write");
+    translated = translated.replace("/gebtn.", "getElementsByTagName");
+    translated = translated.replace("/gebcn.","getElementsByClassName");
+    translated = translated.replace("/gebi.", "getElementById");
+    translated = translated.replace("/gebn.", "getElementsByName");
     translated = translated.replace("/alert.", "alert");
     translated = translated.replace("/func.", "function");
 
@@ -198,7 +197,7 @@ if (work == _0x44bfff(0x65)) {
 
     translated = translated.replace("<body>", "<body id='+body+'>");
     translated = translated.replace("klyfander:", "javascript:");
-    translated = translated.replace("<klyfander>", "<script>");
+    translated = translated.replace("<klyfander", "<script");
     translated = translated.replace("</klyfander>", "</script>");
 
     ///commands added:
