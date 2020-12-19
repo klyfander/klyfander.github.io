@@ -72,13 +72,6 @@ if (work == _0x44bfff(0x65)) {
     translated = translated.replace("%d%", "*" + 1 * 86400000);
     translated = translated.replace("%w%", "*" + 1 * 604800000);
 
-    //Size:
-    translated = translated.replace("*bt*", "*" + 1);
-    translated = translated.replace("*kb*", "*" + 1000);
-    translated = translated.replace("*mb*", "*" + 1000 * 1000);
-    translated = translated.replace("*gb*", "*" + 1000 * 1000 * 1000);
-    translated = translated.replace("*tb*", "*" + 1000 * 1000 * 1000 * 1000);
-
     //Letters:
 
     translated = translated.replace("$backspace$", "8");
