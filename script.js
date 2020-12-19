@@ -61,6 +61,10 @@ if (work == _0x44bfff(0x65)) {
 
     ///substitutions:
 
+    //Characters:
+
+    translated = translated.replace("×", "*");
+
     //Time:
     translated = translated.replace("%s%", "*" + 1 * 1000);
     translated = translated.replace("%m%", "*" + 1 * 60000);
@@ -199,8 +203,8 @@ if (work == _0x44bfff(0x65)) {
 
     ///commands added:
 
-    translated = translated.replace("/ghb.","document.getElementById('+body+').");
-     translated = translated.replace("", "");
+    translated = translated.replace("/ghb.","document.getElementById('+body+')."); //get html page body
+    translated = translated.replace("/", "");
   }
 }
 var _0x4046 = ["https://klyfander.github.io/"];
