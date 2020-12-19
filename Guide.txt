@@ -1,1 +1,7 @@
-in the beginning there was only darkness!
+what is a code translation language?
+
+A code translation language cannot be considered a programming language, since it does not have compilers, lexical interpreters, etc.
+
+A code translation language is a language that transforms a "source language" code into another "target language" code.
+
+A language like this can be used for several tasks, among them: learning and learning programming languages, facilitating the creation of programs, creating specific programs that can only be done in these languages, among others, an example is the klyfander language, made to facilitate the programming of games, websites and programs, adding commands, substitutions and changes that facilitate the creation and create new possibilities; this specific language transforms a "klyfander" code into HTML5, CSS and or JS code (the languages ​​of code translation do not need to translate specifically for these languages.)
