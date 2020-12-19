@@ -13,36 +13,37 @@ A language like this can be used for several tasks, among them: learning and lea
 
  !ghb.
  get the html body of the page, if the body is not written in klyfander add the following id to it to make it work: '+body+'
+ Ex: !ghb.style.background = #ff0000;
 
  //Optional replacements(Commands that have been simplified or modified and that can be programmed in standard js):
 
 !alert. 
 Performs the same functions as an alert, placing a warning on the screen.
-"!alert.('hello everyone')"
+Ex:"!alert.('hello everyone')"
 
 !func.
 Has the same function as a javascript 'function'
-"!func. warn(){}"
+Ex:"!func. warn(){}"
 
 !gebi.
 Has the same functions as a 'getElementById' javascript
-document.!gebi.('id');
+Ex: document.!gebi.('id');
 
 !gebtn.
 It has the same functions as a 'getElementsByTagName' javascript
-document.!gebtn.('tagname');
+Ex: document.!gebtn.('tagname');
 
 !gebn.
 Has the same functions as a 'getElementByName' javascript.
-document.!gebn.('name');
+Ex: document.!gebn.('name');
 
 !gebcn.
 Has the same functions as a 'getElementByClassName' javascript.
-document.!gebcn.('ClassName');
+Ex: document.!gebcn.('ClassName');
 
 !functimer.
 It has the same functions as a javascript 'setTimeout'
-!functimer(function(), 3000);
+Ex: !functimer(function(), 3000);
 
 <klyfander></klyfander>
 has the same functions as a '<script></script>
