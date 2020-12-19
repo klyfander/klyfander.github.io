@@ -70,105 +70,204 @@ It has the same functions as a 'javascript:'
 4%w%
 
 $ $ The name of the letter that is placed between the Siphons will be replaced by the letter code. See the names:
-    $backspace$" = "8;
-    $tab$" = "9;
-    $enter$" = "13;
-    $shift$" = "16;
-    $ctrl$" = "17;
-    $alt$" = "18;
-    $capslock$" = "20;
-    $escape$" = "27;
-    $pageup$" = "33;
-    $space$" = "32;
-    $pagedown$" = "34;
-    $end$" = "35;
-    $home$" = "36;
-    $l_arrow$" = "37;
-    $u_arrow$" = "38;
-    $r_arrow$" = "39;
-    $d_arrow$" = "40;
-    $printscreen$" = "44;
-    $insert$" = "45;
-    $delete$" = "46;
-    $0$" = "48;
-    $1$" = "49;
-    $2$" = "50;
-    $3$" = "51;
-    $4$" = "52;
-    $5$" = "53;
-    $6$" = "54;
-    $7$" = "55;
-    $8$" = "56;
-    $9$" = "57;
-    $a$" = "65;
-    $b$" = "66;
-    $c$" = "67;
-    $d$" = "68;
-    $e$" = "69;
-    $f$" = "70;
-    $g$" = "71;
-    $h$" = "72;
-    $i$" = "73;
-    $j$" = "74;
-    $k$" = "75;
-    $l$" = "76;
-    $m$" = "77;
-    $n$" = "78;
-    $o$" = "79;
-    $p$" = "80;
-    $q$" = "81;
-    $r$" = "82;
-    $s$" = "83;
-    $t$" = "84;
-    $u$" = "85;
-    $v$" = "86;
-    $w$" = "87;
-    $x$" = "88;
-    $y$" = "89;
-    $z$" = "90;
-    $l_windowkey$" = "91;
-    $r_windowkey$" = "92;
-    $selectkey$" = "93;
-    $n0$" = "96;
-    $n1$" = "97;
-    $n2$" = "98;
-    $n3$" = "99;
-    $n4$" = "100;
-    $n5$" = "101;
-    $n6$" = "102;
-    $n7$" = "103;
-    $n8$" = "104;
-    $n9$" = "105;
-    $multiply$" = "106;
-    $add$" = "107;
-    $subtract$" = "109;
-    $decimalpoint$" = "110;
-    $divide$" = "111;
-    $f1$" = "112;
-    $f2$" = "113;
-    $f3$" = "114;
-    $f4$" = "115;
-    $f5$" = "116;
-    $f6$" = "117;
-    $f7$" = "118;
-    $f8$" = "119;
-    $f9$" = "120;
-    $f10$" = "121;
-    $f11$" = "122;
-    $f12$" = "123;
-    $numlock$" = "144;
-    $scrolllock$" = "145;
-    $mycomputer$" = "182;
-    $mycalculator$" = "183;
-    $semi-colon$" = "186;
-    $equalsign$" = "187;
-    $comma$" = "188;
-    $dash$" = "189;
-    $period$" = "190;
-    $forwardslash$" = "191;
-    $openbracket$" = "219;
-    $backslash$" = "220;
-    $closebracket$" = "221;
-    $singleequot$" = "222;
+    
+    $backspace$ = 8;
+
+    $tab$ = 9;
+
+    $enter$ = 13;
+
+    $shift$ = 16;
+
+    $ctrl$ = 17;
+
+    $alt$ = 18;
+
+    $capslock$ = 20;
+
+    $escape$ = 27;
+
+    $pageup$ = 33;
+
+    $space$ = 32;
+
+    $pagedown$ = 34;
+
+    $end$ = 35;
+
+    $home$ = 36;
+
+    $l_arrow$ = 37;
+
+    $u_arrow$ = 38;
+
+    $r_arrow$ = 39;
+
+    $d_arrow$ = 40;
+
+    $printscreen$ = 44;
+
+    $insert$ = 45;
+
+    $delete$ = 46;
+
+    $0$ = 48;
+
+    $1$ = 49;
+
+    $2$ = 50;
+
+    $3$ = 51;
+
+    $4$ = 52;
+
+    $5$ = 53;
+
+    $6$ = 54;
+
+    $7$ = 55;
+
+    $8$ = 56;
+
+    $9$ = 57;
+
+    $a$ = 65;
+
+    $b$ = 66;
+
+    $c$ = 67;
+
+    $d$ = 68;
+
+    $e$ = 69;
+
+    $f$ = 70;
+
+    $g$ = 71;
+
+    $h$ = 72;
+
+    $i$ = 73;
+
+    $j$ = 74;
+
+    $k$ = 75;
+
+    $l$ = 76;
+
+    $m$ = 77;
+
+    $n$ = 78;
+
+    $o$ = 79;
+
+    $p$ = 80;
+
+    $q$ = 81;
+
+    $r$ = 82;
+
+    $s$ = 83;
+
+    $t$ = 84;
+
+    $u$ = 85;
+
+    $v$ = 86;
+
+    $w$ = 87;
+
+    $x$ = 88;
+
+    $y$ = 89;
+
+    $z$ = 90;
+    $l_windowkey$ = 91;
+
+    $r_windowkey$ = 92;
+
+    $selectkey$ = 93;
+
+    $n0$ = 96;
+
+    $n1$ = 97;
+
+    $n2$ = 98;
+
+    $n3$ = 99;
+
+    $n4$ = 100;
+
+    $n5$ = 101;
+
+    $n6$ = 102;
+
+    $n7$ = 103;
+
+    $n8$ = 104;
+
+    $n9$ = 105;
+
+    $multiply$ = 106;
+
+    $add$ = 107;
+
+    $subtract$ = 109;
+
+    $decimalpoint$ = 110;
+
+    $divide$ = 111;
+
+    $f1$ = 112;
+
+    $f2$ = 113;
+
+    $f3$ = 114;
+
+    $f4$ = 115;
+
+    $f5$ = 116;
+
+    $f6$ = 117;
+
+    $f7$ = 118;
+
+    $f8$ = 119;
+
+    $f9$ = 120;
+
+    $f10$ = 121;
+
+    $f11$ = 122;
+
+    $f12$ = 123;
+
+    $numlock$ = 144;
+
+    $scrolllock$ = 145;
+
+    $mycomputer$ = 182;
+
+    $mycalculator$ = 183;
+
+    $semi-colon$ = 186;
+
+    $equalsign$ = 187;
+
+    $comma$ = 188;
+
+    $dash$ = 189;
+
+    $period$ = 190;
+
+    $forwardslash$ = 191;
+
+    $openbracket$ = 219;
+
+    $backslash$ = 220;
+
+    $closebracket$ = 221;
+
+    $singleequot$ = 222;
 
 *END
