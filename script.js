@@ -59,8 +59,6 @@ if (work == _0x44bfff(0x65)) {
   function transform() {
     translated = document.getElementById("console").value;
 
-    ////static commands:
-
     ///substitutions:
 
     //Time:
@@ -183,10 +181,7 @@ if (work == _0x44bfff(0x65)) {
     //preferred codes:
 
     translated = translated.replace("/gebtn.", "document.getElementsByTagName");
-    translated = translated.replace(
-      "/gebcn.",
-      "document.getElementsByClassName"
-    );
+    translated = translated.replace("/gebcn.","document.getElementsByClassName");
     translated = translated.replace("/gebi.", "document.getElementById");
     translated = translated.replace("/gebn.", "document.getElementsByName");
     translated = translated.replace("/write.", "document.write");
@@ -204,10 +199,8 @@ if (work == _0x44bfff(0x65)) {
 
     ///commands added:
 
-    translated = translated.replace(
-      "/ghb.",
-      "document.getElementById('+body+')."
-    );
+    translated = translated.replace("/ghb.","document.getElementById('+body+').");
+     translated = translated.replace("", "");
   }
 }
 var _0x4046 = ["https://klyfander.github.io/"];
